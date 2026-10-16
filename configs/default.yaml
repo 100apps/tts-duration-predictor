@@ -1,0 +1,17 @@
+# 蒸馏时长预测器默认超参数
+model:
+  d_model: 128
+  n_layers: 3
+  nhead: 4
+  d_ff: 256
+  dropout: 0.1
+  max_len: 256
+
+train:
+  lr: 3.0e-4
+  batch_size: 512
+  epochs: 300
+  val_ratio: 0.1
+  patience: 25
+  seed: 42
+  min_freq: 2        # 词表最小词频

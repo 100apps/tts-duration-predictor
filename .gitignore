@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+models/
+data/
+*.wav
+*.mp3
+checkpoints/
+.DS_Store
